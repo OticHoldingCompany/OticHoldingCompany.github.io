@@ -1,0 +1,42 @@
+OTIC PROPRIETARY LICENSE AGREEMENT
+
+Copyright (c) 2025 Otic Holding
+
+1. Grant of License
+Subject to the terms and conditions of this Agreement, Otic ("Licensor") grants the Licensee a non-exclusive, non-transferable, non-sublicensable license to install and use the Otic Website Theme ("Software") solely for internal use on a single company website or project authorized by Otic.
+
+2. Restrictions
+The Licensee shall not:
+
+Copy, resell, sublicense, or redistribute the Software to any third party;
+
+Share or publish any part of the Software publicly, including but not limited to public repositories, marketplaces, or hosting platforms;
+
+Modify, decompile, disassemble, or reverse-engineer the Software;
+
+Use the Software in any commercial product or service not explicitly approved in writing by Otic;
+
+Use the Software on more than one domain or project without written permission from Otic.
+
+3. Ownership
+The Software and all intellectual property rights therein are and shall remain the exclusive property of Otic. This Agreement does not transfer any ownership rights to the Licensee.
+
+4. Confidentiality
+The Licensee agrees to treat the Software as confidential information and must take reasonable precautions to protect it from unauthorized access, use, or disclosure.
+
+5. Term and Termination
+This License is effective as of the Effective Date and remains in force until terminated. Otic may terminate this License at any time upon breach by the Licensee of any term. Upon termination, the Licensee must immediately cease all use of the Software and destroy any copies in their possession.
+
+6. Disclaimer of Warranty
+THE SOFTWARE IS PROVIDED “AS IS,” WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+7. Limitation of Liability
+IN NO EVENT SHALL OTIC BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+8. Governing Law
+This Agreement shall be governed by and interpreted in accordance with the laws of [Insert Jurisdiction], without regard to its conflict of law provisions.
+
+By installing or using the Otic Website Theme, you agree to be bound by this license agreement.
+
+Licensor Contact Information:
+Otic Holding
