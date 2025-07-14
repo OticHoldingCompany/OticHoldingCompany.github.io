@@ -1,0 +1,62 @@
+@import "variables";
+
+* {
+    color: $text-primary;
+    font-family: $font-family;
+}
+
+body {
+    background-color: $background;
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: $header-bg-color;
+    color: $text-secondary;
+    padding: $header-padding;
+    display: flex;
+    flex-direction: row;
+
+    // title
+    #title {
+        font-size: 2em;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    // spacer
+    #header-spacer {
+        flex: 1;
+    }
+
+    // nav
+    nav {
+        display: flex;
+        gap: 20px;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+main, .main {
+    flex: 1;
+    background-color: $background;
+    color: $text-primary;
+    padding: 20px 10%;
+}
+
+footer {
+    background-color: $footer-bg-color;
+    color: $text-secondary;
+    padding: 20px 10%;
+}

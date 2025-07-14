@@ -1,0 +1,41 @@
+// main colors
+$primary: #0000ff !default;
+$secondary: #00ffff !default;
+$background: #ffffff !default;
+$text-primary: #000000 !default;
+$text-secondary: #333333 !default;
+$border-color: #cccccc !default;
+$shadow-color: rgba(0, 0, 0, 0.1) !default;
+
+// font settings
+$font-family: 'Courier New', Courier, monospace !default;
+
+// header colors
+$header-bg-color: $primary !default;
+$header-padding: 20px 10% !default;
+
+// main colors
+$main-bg-color: $background !default;
+
+// footer colors
+$footer-bg-color: $secondary !default;
+
+// scrollbar colors
+$scrollbar-track-color: #f1f1f1 !default;
+$scrollbar-thumb-color: #888 !default;
+$scrollbar-thumb-color-hover: #555 !default;
+
+// button styles
+$button-padding: 10px 20px !default;
+$button-border-radius: 5px !default;
+$button-border: none !default;
+$button-background-color: $primary !default;
+$button-color: white !default;
+$button-hover-background-color: $secondary !default;
+
+// card styles
+$card-border-color: $border-color !default;
+$card-shadow-color: $shadow-color !default;
+$card-border-radius: 10px !default;
+$card-border: 1px solid $card-border-color !default;
+$card-shadow: 0 0 10px $card-shadow-color !default;

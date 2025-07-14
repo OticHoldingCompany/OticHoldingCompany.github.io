@@ -1,0 +1,14 @@
+---
+---
+
+@import "variables"; // Theme variables with !default
+@import "default"; // * styles
+@import "error-page"; // Error page styles hyafi
+
+// components
+@import "components/card"; // Card component styles
+@import "components/input"; // Button styles
+@import "components/scrollbar"; // Scrollbar styles
+
+// important rules
+@import "rules"; // Important rules like [hidden] styles

@@ -1,0 +1,22 @@
+input[type="password"] {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: $button-padding;
+    font-size: 1em;
+    border-radius: $button-border-radius;
+    border: $button-border;
+    background-color: $button-background-color;
+    color: $button-color;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $button-hover-background-color;
+    }
+}

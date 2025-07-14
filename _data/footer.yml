@@ -1,0 +1,4 @@
+- name: FAQ
+  url: /faq
+- name: sitemap
+  url: /sitemap.xml

@@ -1,14 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% include head.html %}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/theme.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    {% if site.maintenance %}
+    <script src="/assets/js/maintenance.js" defer></script>
+    {% endif %}
+
+    {% seo %}
+</head>
 
 <body>
-    {% include header.html %}
-
-    {{ content }}
-
-    {% include footer.html %}
+    <header>
+        <a id="title" href="/">{{ site.title }}</a>
+        <a id="header-spacer"></a>
+        <nav>
+            {% for item in site.data.nav %}
+            <a href="{{ item.url }}">{{ item.title }}</a>
+            {% endfor %}
+        </nav>
+    </header>
+    {% if site.maintenance %}
+    {% include maintenance.html %}
+    <main id="default-main" class="content" hidden>
+        {{ content }}
+    </main>
+    {% else %}
+    <main id="default-main" class="content">
+        {{ content }}
+    </main>
+    {% endif %}
+    
+    <footer>
+        <ul>
+            {% for item in site.data.footer %}
+            <li>
+                <a href="{{ item.url }}">{{ item.name }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        <h4>Legal</h4>
+        <ul>
+            {% for item in site.data.legal %}
+            <li>
+                <a href="{{ item.url }}">{{ item.name }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        <p>© {{ site.time | date: '%Y' }} {{ site.owner }}. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
