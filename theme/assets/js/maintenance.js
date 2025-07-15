@@ -41,7 +41,8 @@ const maintenanceForm = (input) => {
         const msg = "Access denied: Invalid password.";
         console.log(msg);
         document.getElementById
-        showContent(false); ('maintenance-password')?.setAttribute('error', ''); // Clear the input field
+        showContent(false);
+        document.getElementById('maintenance-password')?.removeAttribute('error', ''); // Clear the input field error
         alert(msg);
     }
 }
