@@ -42,7 +42,7 @@ const maintenanceForm = (input) => {
         console.log(msg);
         document.getElementById
         showContent(false);
-        document.getElementById('maintenance-password')?.removeAttribute('error', ''); // Clear the input field error
+        document.getElementById('maintenance-password')?.setAttribute('error', ''); // Clear the input field error
         alert(msg);
     }
 }
