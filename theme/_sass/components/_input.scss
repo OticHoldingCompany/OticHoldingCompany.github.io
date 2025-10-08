@@ -1,4 +1,4 @@
-input {
+input, .input {
     background-color: #314158;
     padding: 10px;
     font-size: 1em;
@@ -38,7 +38,7 @@ button, .btn {
 }
 .btn-inverted {
     @extend .btn;
-    background-color: $background;
+    background-color: $background-secondary;
     color: $secondary;
 
     &:hover {

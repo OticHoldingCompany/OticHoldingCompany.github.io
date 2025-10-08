@@ -4,10 +4,13 @@
 @import "variables"; // Theme variables with !default
 @import "default"; // * styles
 @import "error-page"; // Error page styles hyafi
+@import "layouts"; // Layout styles like header, footer, main, etc.
+@import "font"; // Font styles like body, headings, etc.
 
 // components
-@import "components/card"; // Card component styles
 @import "components/input"; // Button styles
+@import "components/card"; // Card component styles
+@import "components/form"; // Form styles
 @import "components/scrollbar"; // Scrollbar styles
 
 // important rules
