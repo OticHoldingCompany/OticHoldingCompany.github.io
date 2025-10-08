@@ -1,2 +1,10 @@
+- title: Home
+  url: /
 - title: About
-  url: /about
+  url: /#about
+- title: Services
+  url: /#services
+- title: Rates
+  url: /#rates
+- title: Contact
+  url: /#contact

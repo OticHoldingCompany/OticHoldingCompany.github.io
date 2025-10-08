@@ -1,22 +1,54 @@
-input[type="password"] {
+input {
+    background-color: #314158;
     padding: 10px;
     font-size: 1em;
-    border-radius: 5px;
-    border: 1px solid #ced4da;
+    border-radius: $radius;
+    border: $border;
     width: 300px;
     margin-bottom: 20px;
 }
 
-button {
-    padding: $button-padding;
+button, .btn {
+    display: inline-block;
+    padding: 10px 20px;
     font-size: 1em;
-    border-radius: $button-border-radius;
-    border: $button-border;
-    background-color: $button-background-color;
-    color: $button-color;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: $radius;
+    border: 1px solid $secondary;
+    background-color: $secondary;
+    color: $background;
     cursor: pointer;
 
     &:hover {
-        background-color: $button-hover-background-color;
+        background-color: $secondary-hover;
+    }
+
+    &:active {
+        background-color: $secondary-hover;
+        transform: scale(0.98);
+    }
+    
+    &:disabled {
+        background-color: gray;
+        cursor: not-allowed;
+        opacity: 0.65;
+    }
+}
+.btn-inverted {
+    @extend .btn;
+    background-color: $background;
+    color: $secondary;
+
+    &:hover {
+        background-color: $secondary-hover;
+        color: $background;
+    }
+
+    &:active {
+        background-color: $secondary-hover;
+        color: $background;
+        transform: scale(0.98);
     }
 }

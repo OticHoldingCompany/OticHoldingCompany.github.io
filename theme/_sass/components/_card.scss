@@ -1,7 +1,31 @@
 .card {
-    border-radius: $card-border-radius;
-    border: $card-border;
-    box-shadow: $card-shadow;
-    padding: 10px;
+    border-radius: $radius;
+    border: $border;
+    box-shadow: $shadow;
+    padding: 32px;
     margin: 2px;
+    background-color: $background-blur;
+    backdrop-filter: blur(10px);      /* applies blur behind element */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+
+    .card-image {
+        width: 100%;
+        height: auto;
+        border-radius: $radius;
+    }
+
+    .card-icon {
+        width: 50px;
+        height: 50px;
+        background-color: $primary;
+        color: $background;
+        border-radius: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-body {
+        padding: 5px;
+    }
 }

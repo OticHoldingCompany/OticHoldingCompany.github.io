@@ -16,13 +16,14 @@
 
 <body>
     <header>
-        <a id="title" href="/">{{ site.title }}</a>
-        <a id="header-spacer"></a>
+        <a id="title" href="/"><span id="logo-o">O</span>{{ site.title }}</a>
+        <a class="spacer"></a>
         <nav>
             {% for item in site.data.nav %}
             <a href="{{ item.url }}">{{ item.title }}</a>
             {% endfor %}
         </nav>
+        <a class="spacer"></a>
     </header>
     {% if site.maintenance %}
     {% include maintenance.html %}
