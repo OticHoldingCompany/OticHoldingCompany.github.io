@@ -1,11 +1,27 @@
 input, .input {
-    background-color: #314158;
+    background-color: $input-background;
     padding: 10px;
     font-size: 1em;
     border-radius: $radius;
     border: $border;
-    width: 300px;
+    width: 100%;
     margin-bottom: 20px;
+}
+
+select, .select {
+    background-color: $input-background;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: $radius;
+    border: $border;
+    width: 100%;
+    margin-bottom: 20px;
+
+    &.open,
+    &:open,
+    &[aria-expanded="true"] {
+        border-radius: $radius $radius 0 0;
+    }
 }
 
 button, .btn {

@@ -1,0 +1,15 @@
+<section class="column section-secondary">
+    <div class="center">
+        <h1>{{site.data.testimonials.title}}</h1>
+        <p>{{site.data.testimonials.excerpt}}</p>
+    </div>
+    <div class="grid">
+        {% for testimonial in site.data.testimonials.list %}
+        <div class="card">
+            <h2>{{ testimonial.name }}</h2>
+            <p>"{{ testimonial.feedback }}"</p>
+            <p><strong>Rating:</strong> {{ testimonial.rating }} / 5</p>
+        </div>
+        {% endfor %}
+    </div>
+</section>

@@ -1,0 +1,24 @@
+<section class="column">
+    <div class="center">
+        <h1>{{site.data.pricing.title}}</h1>
+        <p>{{site.data.pricing.excerpt}}</p>
+    </div>
+    <div class="grid">
+        {% for plan in site.data.pricing.plans %}
+        <div class="card">
+            <div class="center">
+                <h2>{{ plan.name }}</h2>
+                <p class="price">{{ plan.price }}</p>
+                <p>{{ plan.description }}</p>
+            </div>
+            <ul>
+                {% for feature in plan.features %}
+                <li>{{ feature }}</li>
+                {% endfor %}
+            </ul>
+            <div class="center">
+                <a href="{{ plan.cta_link }}" class="btn">{{ plan.cta_text }}</a>
+            </div>
+        </div>
+        {% endfor %}
+</section>

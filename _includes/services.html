@@ -1,0 +1,29 @@
+<section id="services" class="column">
+    <div class="center">
+        <h1>{{ site.data.services.title }}</h1>
+        <p>{{ site.data.services.excerpt }}</p>
+    </div>
+    <div>
+        <div class="grid">
+            {% for service in site.data.services.list %}
+            <div class="card column">
+                <h2>{{ service.title }}</h2>
+                <p>{{ service.description }}</p>
+                <ul>
+                    {% for item in service.features %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+                <a href="{{ service.link }}" class="btn-inverted">Learn More</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="center">
+        <div class="card column">
+            <h2>{{ site.data.services.other.title }}</h2>
+            <p>{{ site.data.services.other.description }}</p>
+            <a href="{{ site.data.services.other.link }}" class="btn-inverted">Get Comprehensive Assessment</a>
+        </div>
+    </div>
+</section>

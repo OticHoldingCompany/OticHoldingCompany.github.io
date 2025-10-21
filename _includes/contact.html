@@ -1,0 +1,57 @@
+<section class="column section-secondary">
+    <div class="center">
+        <h1>{{site.data.contact.title}}</h1>
+        <p>{{site.data.contact.excerpt}}</p>
+    </div>
+    <div class="grid">
+        <div class="card">
+            <h2>Contact Information</h2>
+            {% for item in site.data.contact.info %}
+            <div>
+                <div class="inline">
+                    <img src="{{item.icon}}" alt="{{item.name}} icon" class="icon"/>
+                    <div class="column">
+                        <h3>{{item.name}}</h3>
+                        <p>{{item.value}}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="card">
+            <h2>Free Asset Form</h2>
+            <form action="https://formspree.io/f/{{site.data.contact.formspree_id}}"    method="POST" class="column gap-small">
+                <div>
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" required>
+
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="_replyto" required>
+
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="asset">Asset Requested</label>
+                <input type="text" id="asset" name="asset" required>
+
+                <label for="situation">Situation</label>
+                <select name="situation" id="situation" required>
+                    <option value=""></option>
+                    <option value="property-foreclosure">Property Foreclosure</option>
+                    <option value="tax-sale">Tax Sale</option>
+                    <option value="unclaimed-property">Unclaimed Property</option>
+                    <option value="other">Other/Not Sure</option>
+                </select>
+
+                <label for="more">Additional Details</label>
+                <input type="text" id="more" name="more">
+
+                <button type="submit" class="button-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>

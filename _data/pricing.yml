@@ -1,0 +1,40 @@
+title: Pricing
+excerpt: We work on a contingency basis - you only pay when we successfully recover your assets. No upfront fees, no hidden costs, no risk to you.
+plans:
+  - name: Standard Recovery
+    price: 35%
+    description: Our standard contingency fee for most asset recovery cases
+    cta_text: Get Started
+    cta_link: /get-started
+    features:
+      - No upfront costs
+      - Full case investigation
+      - Legal document preparation
+      - Professional representation
+      - Regular progress updates
+      - Success-based payment only
+  - name: Complex Cases
+    price: 40%
+    fav: true
+    description: For complex litigation or disputed ownership cases
+    cta_text: Get Started
+    cta_link: /get-started
+    features:
+      - Everything in Standard
+      - Advanced legal research
+      - Court representation
+      - Expert witness coordination
+      - Extended investigation period
+      - Multi-jurisdiction handling
+  - name: Quick Recovery
+    price: 25%
+    description: For straightforward cases with clear documentation
+    cta_text: Get Started
+    cta_link: /get-started
+    features:
+      - Expedited processing
+      - Clear ownership documentation
+      - Simple surplus claims
+      - Fast-track procedures
+      - Basic case management
+      - Quick resolution focus

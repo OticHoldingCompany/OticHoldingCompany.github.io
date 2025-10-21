@@ -1,0 +1,39 @@
+title: Our <span class="accent">Recovery Services</span>
+excerpt: We specialize in multiple types of asset recovery to ensure no stone is left unturned in reclaiming what rightfully belongs to you.
+list:
+  - title: Foreclosure Surplus Recovery
+    description: We help you recover surplus funds from foreclosure sales, ensuring you get back what is rightfully yours.
+    icon: /assets/icons/foreclosure.svg
+    link: /foreclosure-surplus-recovery/
+    features:
+      - Property foreclosure surplus
+      - Judicial sale overages
+      - Trustee sale excess funds
+  - title: Unclaimed Property Recovery
+    description: Our team assists in locating and recovering unclaimed property, including forgotten bank accounts, insurance payouts, and more.
+    icon: /assets/icons/unclaimed.svg
+    link: /unclaimed-property-recovery/
+    features:
+      - Forgotten bank accounts
+      - Unclaimed insurance payouts
+      - Dormant investment accounts
+  - title: Tax Lien Recovery
+    description: We specialize in recovering funds from tax liens, helping you reclaim money owed to you from government entities.
+    icon: /assets/icons/tax-lien.svg
+    link: /tax-lien-recovery/
+    features:
+      - Federal tax lien recovery
+      - State tax lien recovery
+      - Local tax lien recovery
+  - title: Asset Protection Services
+    description: Our asset protection services help safeguard your recovered assets and ensure they remain secure.
+    icon: /assets/icons/asset-protection.svg
+    link: /asset-protection-services/
+    features:
+      - Asset monitoring
+      - Legal protection strategies
+      - Financial advisory services
+other:
+  title: Not Sure Which Service You Need?
+  description: Our experts will conduct a comprehensive review of your situation and identify all possible avenues for asset recovery at no cost to you.
+  link: /comprehensive/

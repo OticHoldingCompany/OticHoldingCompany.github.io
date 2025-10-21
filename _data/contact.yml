@@ -1,0 +1,20 @@
+title: Get Your Free Assessment
+excerpt: Ready to discover if you have unclaimed surplus funds? Contact us today for a completely free, no-obligation assessment of your situation.
+info:
+  - name: Phone
+    value: (123) 456-7890
+    link: tel:+1234567890
+    icon: phone
+  - name: Email
+    value: info@oticholding.com
+    link: mailto:info@oticholding.com
+    icon: envelope
+  - name: Address
+    value: >- 
+      123 Recovery Street, Suite 500
+      Asset City, AC 12345
+    link: https://maps.google.com/?q=123+Recovery+Street,+Suite+500,+Asset+City,+AC+12345
+    icon: map-marker-alt
+  - name: Business Hours
+    value: "Monday - Friday: 9:00 AM - 6:00 PM"
+    icon: clock
