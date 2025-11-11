@@ -7,8 +7,11 @@
         <div class="column">
             {% for point in site.data.about.points %}
             <div class="card">
-                <h2>{{point.title}}</h2>
-                <p>{{point.text}}</p>
+                <span class="material-symbols-outlined">{{point.icon}}</span>
+                <div class="column inline">
+                    <h2>{{point.title}}</h2>
+                    <p>{{point.text}}</p>
+                </div>
             </div>
             {% endfor %}
         </div>

@@ -1,8 +1,15 @@
 .icon {
     border-radius: $radius;
-    width: 100px;
-    height: 100px;
     background-color: $secondary;
     color: $background;
     display: inline-flex;
+}
+
+.material-symbols-outlined {
+  @extend .icon;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 20,
+  'opsz' 48;
 }

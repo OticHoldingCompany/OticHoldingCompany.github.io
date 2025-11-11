@@ -3,3 +3,8 @@ h1
 .accent {
     color: $secondary;
 }
+
+li::marker {
+    color: $secondary;
+    font-weight: bold;
+}

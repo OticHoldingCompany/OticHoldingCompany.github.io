@@ -9,8 +9,8 @@
             {% for item in site.data.contact.info %}
             <div>
                 <div class="inline">
-                    <img src="{{item.icon}}" alt="{{item.name}} icon" class="icon"/>
-                    <div class="column">
+                    <span class="material-symbols-outlined">{{item.icon}}</span>
+                    <div class="column inline">
                         <h3>{{item.name}}</h3>
                         <p>{{item.value}}</p>
                     </div>

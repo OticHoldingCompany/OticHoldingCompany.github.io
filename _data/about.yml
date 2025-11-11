@@ -3,10 +3,13 @@ excerpt: When properties are foreclosed or sold for taxes, excess funds often re
 points:
   - title: Free Assessment
     text: We research your property and identify any available surplus funds at no cost to you.
+    icon: description
   - title: Legal Process
     text: Our experts handle all paperwork and legal requirements to claim your funds.
+    icon: apartment 
   - title: Fund Recovery
     text: We secure your money and you receive your recovered assets minus our agreed fee.
+    icon: attach_money
 bubble:
   title: Why Choose Us?
   text:

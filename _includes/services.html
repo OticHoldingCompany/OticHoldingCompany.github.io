@@ -7,8 +7,13 @@
         <div class="grid">
             {% for service in site.data.services.list %}
             <div class="card column">
-                <h2>{{ service.title }}</h2>
-                <p>{{ service.description }}</p>
+                <div class="">
+                    <span class="material-symbols-outlined">{{service.icon}}</span>
+                    <div class="column inline">
+                        <h2>{{ service.title }}</h2>
+                        <p>{{ service.description }}</p>
+                    </div>
+                </div>
                 <ul>
                     {% for item in service.features %}
                     <li>{{ item }}</li>

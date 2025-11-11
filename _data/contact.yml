@@ -4,17 +4,17 @@ info:
   - name: Phone
     value: (123) 456-7890
     link: tel:+1234567890
-    icon: phone
+    icon: phone_in_talk
   - name: Email
     value: info@oticholding.com
     link: mailto:info@oticholding.com
-    icon: envelope
+    icon: mail
   - name: Address
     value: >- 
       123 Recovery Street, Suite 500
       Asset City, AC 12345
     link: https://maps.google.com/?q=123+Recovery+Street,+Suite+500,+Asset+City,+AC+12345
-    icon: map-marker-alt
+    icon: location_on
   - name: Business Hours
     value: "Monday - Friday: 9:00 AM - 6:00 PM"
-    icon: clock
+    icon: schedule
