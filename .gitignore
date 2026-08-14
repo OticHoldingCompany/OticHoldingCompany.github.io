@@ -7,4 +7,6 @@ vendor
 Gemfile.lock
 
 # VS Code
-.vscode/
+.vscode/**
+!.vscode/extensions.json
+!.vscode/settings.json
